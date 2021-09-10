@@ -1,0 +1,7 @@
+873891dbe8f06b36f70fd226e8c30ff323e27a00 small changes
+98ee7012c0d721c9f06ef7216941cc95b13bf826 Add Lightning
+16ca2a1108bcac53d74be4f6177155ea7551b0e8 Add Clouds, toggle Background Colour
+2a54b1d5cd27905797f80902d7d8714bdb3c1301 Bug Fix Rain
+be65c73ac50d7a9eb064021b95e46d5cb22d06bd Add Toggle Rain feature
+d45570a6722490fa1759721c631ca0b8de556556 Add Background_Scenery
+41e0f5d720776f261b0b7dd7ede845b3b3012d81 Setup
