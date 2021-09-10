@@ -5,5 +5,16 @@ function setup() {
 
 
 function draw() {
+  fill('green');
+  stroke('green');
+  rect(0, 500, 1200, 250); //Grass
+  
+  //Tree
+  fill('brown');
+  stroke('brown');
+  rect(150, 300, 70, 250);
 
+  fill('green');
+  stroke('black');
+  circle(185, 280, 250);
 }
