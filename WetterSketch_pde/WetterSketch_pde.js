@@ -22,16 +22,13 @@ function draw() {
 
   fill('green');
   stroke('green');
-  rect(0, 500, 1200, 250); //Grass
-  
-  //Tree
+  rect(0, 500, 1200, 250);
   fill('brown');
   stroke('brown');
   rect(150, 300, 70, 250);
   fill('green');
   stroke('black');
   circle(185, 280, 250);
-
 }
 
 function rainCheck() {
@@ -45,13 +42,11 @@ function rainCheck() {
 
 function rain() {
   if (rainStatus == 1) {
-    
-    background(165, 198, 232)
-    let cloudColour;
-    cloudColour = random(90, 100);
+    background(165, 198, 232);
     stroke(40, 3, 252);
     fill(40, 3, 252);
-    let count = 0
+
+    let count = 0;
     while (count <= 4){
     circle(random(0, 1200), random(0, 700), 7);
     count += 1;
@@ -62,6 +57,8 @@ function rain() {
       clear();
       rainCount = 0;
     }
+    
+    let cloudColour = random(90, 100);
     fill(cloudColour);
     stroke(cloudColour);
   }
