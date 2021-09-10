@@ -9,6 +9,7 @@ function setup() {
   button.position(0, 0);
   button.mousePressed(rainCheck);
 }
+rainCheck();
 
 function draw() {
   rain();
