@@ -1,5 +1,6 @@
 let button;
 let rainStatus;
+let rainCount = 0;
 
 function setup() {
   createCanvas(1200, 700);
@@ -44,17 +45,23 @@ function rainCheck() {
 
 function rain() {
   if (rainStatus == 1) {
+    
     background(165, 198, 232)
     let cloudColour;
     cloudColour = random(90, 100);
     stroke(40, 3, 252);
     fill(40, 3, 252);
     let count = 0
-    while (count <= 3){
+    while (count <= 4){
     circle(random(0, 1200), random(0, 700), 7);
     count += 1;
+    rainCount += 1;
     }
     count = 0;
+    if (rainCount >= random(1500, 2000)) {
+      clear();
+      rainCount = 0;
+    }
     fill(cloudColour);
     stroke(cloudColour);
   }
